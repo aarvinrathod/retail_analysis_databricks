@@ -8,7 +8,6 @@ This project is developed using Databricks(https://databricks.com/) and Apache S
 
 # Data Attribution
 
-
 Data used in this analysis is provided by 2U. You can acquire the data using the following links
   *s3://2u-data-curriculum-team/dataviz-classroom/v1.1/22-big-data/categories.csv
   *s3://2u-data-curriculum-team/dataviz-classroom/v1.1/22-big-data/customers.csv
@@ -22,3 +21,32 @@ Data used in this analysis is provided by 2U. You can acquire the data using the
   *s3://2u-data-curriculum-team/dataviz-classroom/v1.1/22-big-data/suppliers.csv
   *s*3://2u-data-curriculum-team/dataviz-classroom/v1.1/22-big-data/territories.csv
 
+
+<img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/erd.png?raw=true" height="600px">
+
+# Analysis Performed
+
+* How many orders have been placed in total?  
+  Using Aggregation on the orders table we found that there have been 830 orders in total.
+
+* How many orders have been shipped to each country?
+  - Germany and USA have had the most oderes shipped(120 orders)
+    <img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/shipped.png?raw=true" height="150px">
+
+* For each product, list its product ID, product name, and the company name.
+
+* Which 5 countries have the heaviest shipments, on average?
+
+* Which 10 companies have placed the most orders? List the contact name of each company.
+
+* Sort the customers by total amount spent on orders in descending order.
+
+* Sort customers with a total spending greater than 20,000 in descending order.
+
+* Sort the employees by the number of orders they sold in descending order.
+
+* How many employees account for about half of the orders?
+
+* List customers who have never placed an order.
+
+* List the products with the highest level of discount in descending order.
