@@ -31,17 +31,21 @@ Data used in this analysis is provided by 2U. You can acquire the data using the
 
 * How many orders have been shipped to each country?
   - Germany and USA have had the most oderes shipped(120 orders)
-    <img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/shipped.png?raw=true" height="150px">
+    <img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/shipped.png?raw=true" height="200px">
 
 * For each product, list its product ID, product name, and the company name.
 
 * Which 5 countries have the heaviest shipments, on average?
+  Australia, Ireland, USA, Germany, Sweden
+
+    <img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/ship_country.png?raw=true" height="200px">
 
 * Which 10 companies have placed the most orders? List the contact name of each company.
+    <img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/customer_contacts.png?raw=true" height="200px">
 
-* Sort the customers by total amount spent on orders in descending order.
 
 * Sort customers with a total spending greater than 20,000 in descending order.
+    <img src="https://github.com/aarvinrathod/retail_analysis_databricks/blob/main/Images/total_spent_by-customers.png?raw=true" height="200px">
 
 * Sort the employees by the number of orders they sold in descending order.
 
